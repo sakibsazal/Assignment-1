@@ -1,28 +1,16 @@
-.box{
-   
-    margin: 56px 139px 6679px 141px;
-    padding:1320px 600px ;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    border-radius: 16px;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+.landing-page{
+    width: 1600px;
+height: 7335px;
+background: #FFF;
 }
-header{
-    background-image: url(images/Banner\ Image.png);
-}
-
-.box2{
-
-    margin: 171px 345px 183px 343px;
-    padding: 632px 246px;
+div.top{
+    text-align: center;
     width: 632px;
-    height: 246px;
-    flex-shrink: 0;
-    color: #FFFFFF;
+height: 246px;
+flex-shrink: 0;
 }
-.h3{
-    color: #FFF;
+.text{
+    
 text-align: center;
 font-family: Merriweather;
 font-size: 32px;
@@ -30,8 +18,9 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.box4{width: 632px;
-    color: #FFF;
+.headline{
+    width: 632px;
+   
 text-align: center;
 font-family: Merriweather;
 font-size: 72px;
