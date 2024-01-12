@@ -1,5 +1,5 @@
 .landing-page {
-                 width: 1600px;
+                width: 1600px;
                 height: 7335px;
                 background: #FFF;
               }
@@ -8,8 +8,7 @@ header {
         width: 1320px;
         height: 600px;
         margin-top: 56px;
-        margin-bottom: 6679px;
-        argin-left: 285px;
+        margin-left: 285px;
         margin-right: 139px;
         background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Banner\ Image.png);
         border-radius: 16px;
@@ -41,12 +40,38 @@ h1 {
   
 
    }
-.off {
-      color: #F00;
-      text-align: center;
-      font-family: Inter;
-      font-size: 88px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal; 
-     }
+
+     
+     
+     /*main section*/
+     .main {
+       width: 1600px;
+       text-align: center;
+        background: #fff;}
+     .off {
+            color:#F00;
+            text-align: center;
+           max-width: 383px;
+            font-size: 88px;
+            margin:114px 450px 40px 750px;
+            
+            font-weight: 700px;
+    
+       }
+    .our{
+        color: #F00;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+      padding: 0px 450px 16px 750px;
+
+
+    }
+    .all{
+        color: #070211;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        padding: 0px 425px 0px 725px; 
+        
+    }
