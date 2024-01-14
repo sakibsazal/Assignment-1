@@ -130,11 +130,13 @@ img {
   color: #FFF;
   font-family: Merriweather;
   font-size: 52px;
-  max-width: 697px;
-  padding-left: 100px;
-  padding-bottom: 24px;
-  padding-right: 0px;
-  padding-top: 57px;
+ max-width: 697px;
+ max-height: 175px;
+  margin-left: 100px;
+  margin-right: 94px;
+ margin-bottom: 24px;
+  margin-top: 57px;
+
 
 
 }
@@ -143,11 +145,12 @@ img {
   color: rgba(255, 255, 255, 0.80);
   font-family: Inter;
   font-size: 14px;
-  max-width: 575px;
-  padding-left: 100px;
-  padding-bottom: 45px;
-  padding-right: 0px;
-  max-width: 697px;
+
+  margin-left: 100px;
+  margin-bottom: 45px;
+  
+ max-width: 697px;
+ 
 }
 
 .button {
@@ -379,16 +382,102 @@ text-align: center;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px;
-
-}
-call{
+  line-height: 40px; 
+  margin:0px 559px 50px 140px ;
+  padding-top: 120px;
+ }
+ .call{
   width: 24px;
 height: 24px;
 flex-shrink: 0;
+ background: url(images/Call.png);
+ background-repeat: no-repeat; 
+ margin-top: 128px;
+ padding-right: 16px;
+ }
+ .web{
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+   background: url(images/Website.png);
+   background-repeat: no-repeat; 
+  margin-top:16px ;
+   padding-right: 16px;
+
+ }
+
+.add{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+margin: 120px 275px 50px 0px;
+
+
+
+}
+
+.top-ftr{
+display: flex;
 }
 .hr{
   width: 1320px;
 height: 1px;
   margin: 24px 140px;
+}
+.icon{
+  display: flex;
+ 
+}
+
+.fb{  
+  width: 64px;
+height: 64px;
+flex-shrink: 0;
+border-top:48px  ;
+  background: url(images/Facebook.png);
+  margin-left: 640px;
+}
+.ins{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  background: url(images/Instagram.png);
+  margin-left: 24px;
+}
+.ttr{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin-left: 24px;
+  background: url(images/Twitter.png);
+}
+.lin{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin-left: 24px;
+  background: url(images/Linkedin.png);
+}
+.btm{
+  display: flex;
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.end{
+  margin: 50px 880px 120px 140px;
+}
+.last{
+  margin: 50px 140px 120px 0px;
+  background: none;
+  border: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
 }
